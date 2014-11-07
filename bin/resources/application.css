@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+.root {
+	-fx-background-image: url("background.jpg");
+}
+
+.button {
+	-fx-text-fill: white;
+	-fx-font-family: "Comic Sans MS";
+	-fx-font-size: 24px;
+	-fx-font-weight: bold;
+	
+	-fx-background-color: linear-gradient(#61a2b1, #2a5058);
+	-fx-effect: dropshadow( three-pass-box, rgba(0,0,0,0.6), 5,0.0,0,1 );
+}
+
+.text-field {
+	-fx-font-size: 30px;
+	-fx-font-family: "Courier New";
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(#2A5058, #61A2B1);
+}
